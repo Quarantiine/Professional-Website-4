@@ -1,17 +1,17 @@
 // 1.) messager-icon-container |=======>
-const messageContainerContentBox = document.querySelector('.message-container-content-box');
-const messagerIconContainer = document.querySelector('.messager-icon-container');
+// const messageContainerContentBox = document.querySelector('.message-container-content-box');
+// const messagerIconContainer = document.querySelector('.messager-icon-container');
 
-messageContainerContentBox.style.display = 'none';
-messagerIconContainer.addEventListener('click', ()=> {
-    messagerIconContainer.querySelector('img').src = '../imgs/message-img-2.jpg';
-    messageContainerContentBox.style.display = 'block';
-});
+// messageContainerContentBox.style.display = 'none';
+// messagerIconContainer.addEventListener('click', ()=> {
+//     messagerIconContainer.querySelector('img').src = '../imgs/message-img-2.jpg';
+//     messageContainerContentBox.style.display = 'block';
+// });
 
-messageContainerContentBox.addEventListener('mouseleave', ()=> {
-    messagerIconContainer.querySelector('img').src = '../imgs/message-img.jpg';
-    messageContainerContentBox.style.display = 'none';
-});
+// messageContainerContentBox.addEventListener('mouseleave', ()=> {
+//     messagerIconContainer.querySelector('img').src = '../imgs/message-img.jpg';
+//     messageContainerContentBox.style.display = 'none';
+// });
 
 // 2.) main-top-navbar |======>
 const mainTopNavbar = document.querySelector('.main-top-navbar');
