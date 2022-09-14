@@ -1,16 +1,16 @@
 "use strict";
 
 // 1.) messager-icon-container |=======>
-var messageContainerContentBox = document.querySelector('.message-container-content-box');
-var messagerIconContainer = document.querySelector('.messager-icon-container');
-messageContainerContentBox.style.display = 'none';
-messagerIconContainer.addEventListener('click', function () {
-  messagerIconContainer.querySelector('img').src = '../imgs/message-img-2.jpg';
-  messageContainerContentBox.style.display = 'block';
-});
-messageContainerContentBox.addEventListener('mouseleave', function () {
-  messagerIconContainer.querySelector('img').src = '../imgs/message-img.jpg';
-  messageContainerContentBox.style.display = 'none';
+// var messageContainerContentBox = document.querySelector('.message-container-content-box');
+// var messagerIconContainer = document.querySelector('.messager-icon-container');
+// messageContainerContentBox.style.display = 'none';
+// messagerIconContainer.addEventListener('click', function () {
+//   messagerIconContainer.querySelector('img').src = '../imgs/message-img-2.jpg';
+//   messageContainerContentBox.style.display = 'block';
+// });
+// messageContainerContentBox.addEventListener('mouseleave', function () {
+//   messagerIconContainer.querySelector('img').src = '../imgs/message-img.jpg';
+//   messageContainerContentBox.style.display = 'none';
 }); // 2.) main-top-navbar |======>
 
 var mainTopNavbar = document.querySelector('.main-top-navbar');
